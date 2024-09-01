@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "medievalcraft",
+  "version": "${version}",
+  "name": "MedievalCraft",
+  "description": "A mod that adds medieval weapons and structures!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/medievalcraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.elias.medievalcraft.client.McMainClient"
+    ],
+    "main": [
+      "org.elias.medievalcraft.McMain"
+    ]
+  },
+  "mixins": [
+    "medievalcraft.mixins.json",
+    {
+      "config": "medievalcraft.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

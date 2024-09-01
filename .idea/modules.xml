@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MedievalCraft.client.iml" filepath="$PROJECT_DIR$/.idea/modules/MedievalCraft.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MedievalCraft.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MedievalCraft.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MedievalCraft.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MedievalCraft.test.iml" />
+    </modules>
+  </component>
+</project>
